@@ -4,10 +4,16 @@
   "description": "",
   "main": "01-app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node 05-app.js",
+    "start02": "node 04-app.js",
+    "dev": "nodemon 05-app.js",
+    "dev02": "nodemon 04-app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
